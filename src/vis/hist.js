@@ -4,7 +4,7 @@ export function spec(data) {
     mark: 'bar',
     encoding: {
       x: { field: 'airport', type: 'ordinal' },
-      y: { field: 'rank', type: 'qunatitative' },
+      y: { aggregate: 'count', field: '*', type: 'qunatitative' },
     },
   };
 }
