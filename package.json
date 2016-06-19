@@ -10,7 +10,15 @@
   "author": "Ayush Saraf <ayush29f@uw.edu>",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.21.0",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1"
   }
 }

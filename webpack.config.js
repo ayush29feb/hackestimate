@@ -17,9 +17,25 @@ module.exports = {
     path: PATHS.build,
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
+  module: {
+      loaders: [{
+          test: /\.(sass|scss)$/,
+          loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+          include: [PATHS.src]
+      }, {
+        test: /\.js$/,
+        loaders: ['babel'],
+        include: [PATHS.src]
+      }]
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack demo'
+        title: 'Hack Estimate',
+        filename: 'index.html',
+        template: path.join(PATHS.src, 'template.html')
     })
   ]
 };
