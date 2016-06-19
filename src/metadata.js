@@ -8,7 +8,8 @@ export const INPUT_META_DATA = {
 
 export const PROCESSED_META_DATA = {
   RANK: 'rank',
-  NAME: 'name',
+  FIRST_NAME: 'firstName',
+  LAST_NAME: 'lastName',
   STATE: 'state',
   GENDER: 'gender',
   AIRPORT: 'airport',
@@ -20,6 +21,18 @@ export const GENDER = {
   MALE: 'male',
   FEMALE: 'female',
   OTHER: 'other',
+};
+
+export const AIRPORTS = {
+  ATL: 'ATL',
+  AUS: 'AUS',
+  CLE: 'CLE',
+  JFK: 'JFK',
+  LAX: 'LAX',
+  ORD: 'ORD',
+  PDX: 'PDX',
+  SAN: 'SAN',
+  SFO: 'SFO',
 };
 
 export const STATES = {

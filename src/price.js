@@ -1,4 +1,4 @@
-import { STATES } from './metadata';
+import { STATES, AIRPORTS } from './metadata';
 
 export function priceFromState(state) {
   switch (state) {
@@ -106,5 +106,30 @@ export function priceFromState(state) {
       return 100;
     default:
       return 0;
+  }
+}
+
+export function priceFromAirport(airport) {
+  switch (airport) {
+    case AIRPORTS.ATL:
+      return 395;
+    case AIRPORTS.AUS:
+      return 290;
+    case AIRPORTS.CLE:
+      return 350;
+    case AIRPORTS.JFK:
+      return 320;
+    case AIRPORTS.LAX:
+      return 150;
+    case AIRPORTS.ORD:
+      return 270;
+    case AIRPORTS.PDX:
+      return 180;
+    case AIRPORTS.SAN:
+      return 250;
+    case AIRPORTS.SFO:
+      return 200;
+    default:
+      return 200;
   }
 }
