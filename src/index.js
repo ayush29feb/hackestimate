@@ -1,4 +1,7 @@
 import './styles/main.scss';
-const component = require('./hello');
+import { addPrices } from './data';
+// import { finalhackers as logic } from './logic';
 
-document.body.appendChild(component());
+const rawdata = require('../data/sample.csv');
+
+console.log(addPrices(rawdata));
