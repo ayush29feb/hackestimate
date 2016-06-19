@@ -11,11 +11,12 @@ function localHackers(localApplications, localHackersTotal) {
 }
 
 function remoteHackers(remoteApplications, budget, totalHackers) {
-  // normalize this distribution:
+  // normalize this distribution
   // google a normalization function
   // optimize on constraints
   // return the list of accepted hackers
   console.log(budget, totalHackers);
+  return [];
 }
 
 // Pre: Takes in a array of objects containing all the applications,
