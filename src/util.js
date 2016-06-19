@@ -20,16 +20,3 @@ export function duplicate(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
 
-// Returns the distance between 2 points a, b of n dimensions
-export function distance(a, b) {
-  if (a.length !== b.length) {
-    return undefined;
-  }
-  const n = a.length;
-  let sum = 0;
-  for (let i = 0; i < n; i++) {
-    // sum += (a[i] - b[i])^2
-    sum = _.add(sum, _.multiply(_.subtract(a[i], b[i]), 2));
-  }
-  return sum;
-}

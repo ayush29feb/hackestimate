@@ -1,20 +1,24 @@
 import _ from 'lodash';
-import { scaleFeature, minMaxArray, duplicate, distance } from './util';
+import { scaleFeature, minMaxArray, duplicate } from './util';
 // For a 1000 Applications
 const TARGET = {
-  rank: 300,
-  price: 200,
+  rank: 1,
+  price: 100,
 };
 const LOCAL_HACKER_RATIO = 0.7;
 
 function optimize(normalizeApps, normalizeTarget) {
-  const costValueApps = duplicate(normalizeApps);
-  _.forEach(costValueApps, (p) => {
-    costValueApps.distance = distance([p.nrank, p.nprice],
-      [normalizeTarget.nrank, normalizeTarget.nprice]);
+  const costValueApps = [];
+  _.forEach(normalizeApps, (p) => {
+    const single = duplicate(p);
+    const x1 = normalizeTarget.nRank;
+    const y1 = normalizeTarget.nPrice;
+    const x2 = p.nRank;
+    const y2 = p.nPrice;
+    single.distance = Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2);
+    costValueApps.push(single);
   });
-  _.sortBy(costValueApps, 'distance');
-  return costValueApps;
+  return _.sortBy(costValueApps, 'distance');
 }
 
 // localApplications is a subset of totalApplications who are in the regional area
@@ -42,8 +46,8 @@ function remoteHackers(remoteApplications, budget, totalHackers) {
     return ret;
   });
   const normalizeTarget = {
-    nrank: scaleFeature(TARGET.rank, rankMinMax.min, rankMinMax.max),
-    nprice: scaleFeature(TARGET.price, priceMinMax.min, priceMinMax.max),
+    nRank: scaleFeature(TARGET.rank, rankMinMax.min, rankMinMax.max),
+    nPrice: scaleFeature(TARGET.price, priceMinMax.min, priceMinMax.max),
   };
 
   // Step 2. Optimize on constraints
@@ -72,5 +76,5 @@ export function finalhackers(totalApplications, budget, totalHackers) {
   const remoteAcceptedHackers = remoteHackers(remoteApplications, budget,
                                   _.floor((1 - LOCAL_HACKER_RATIO) * totalHackers));
   // Step 3. Return the final hackers
-  return _.union(localAcceptedApplications, remoteAcceptedHackers);
+  return _.union(remoteAcceptedHackers);
 }
