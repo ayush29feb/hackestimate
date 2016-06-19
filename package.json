@@ -1,0 +1,16 @@
+{
+  "name": "hackestimate",
+  "version": "0.0.1",
+  "description": "Solving Travel Reimubrsement Problems For Hackathons",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Saraf <ayush29f@uw.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.21.0",
+    "webpack": "^1.13.1"
+  }
+}
