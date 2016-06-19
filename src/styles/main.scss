@@ -7,7 +7,7 @@ body {
 
 	background-color: white;
 
-	color: white;
+	color: #272727;
 	font-family: "Avenir";
 }
 
@@ -24,3 +24,14 @@ body {
 		margin-bottom: -5px;
 	}
 
+#content_container {
+	
+
+}
+
+#basic_inputs {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
