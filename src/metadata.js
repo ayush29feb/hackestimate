@@ -13,7 +13,7 @@ export const PROCESSED_META_DATA = {
   STATE: 'state',
   GENDER: 'gender',
   AIRPORT: 'airport',
-  ACCEPTED: 'accepted',
+  STATUS: 'status',
   PRICE: 'price',
 };
 
