@@ -1,4 +1,4 @@
-rank,first_name,last_name,arrive date,depart date,airport,state
+rank,firstName,lastName,arrive date,depart date,airport,state
 1,George,Adams,9/20/16,9/23/16,SEA,WA
 2,Deborah,Hicks,9/19/16,9/23/16,SEA,WA
 3,Sandra,Burke,9/20/16,9/23/16,SEA,WA

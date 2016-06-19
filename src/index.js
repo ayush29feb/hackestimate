@@ -3,12 +3,14 @@ import _ from 'lodash';
 import { draw1, draw2, draw3 } from './vis/index';
 import { addPrices, calcCost } from './data';
 import { finalhackers as logic } from './logic';
+import { populateTable } from './controller';
 
 const BUDGET = 15000;
 const TOTAL = 600;
 const rawdata = require('../data/sample.csv');
 const processedData = addPrices(rawdata);
 const hackers = logic(processedData, BUDGET, TOTAL);
+populateTable(hackers);
 
 console.log('processed', processedData);
 console.log('final', hackers);
