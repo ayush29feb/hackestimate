@@ -91,15 +91,16 @@ body {
 #graphs_container {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
 
 	padding: 50px 0px;
 	border-top: solid $grey_black 1px;
 }
 
 	#graphs_container div {
-		background-color: red;
-		width: 300px;
-		height: 250px;
+		background-color: #59a99f;
+		width: 400px;
+		height: 300px;
 
 		margin: 40px;
 	}
