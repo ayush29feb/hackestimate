@@ -1,0 +1,110 @@
+/* Constants */
+
+$header_size: 20pt;
+$grey_black: #272727;
+
+$page_teal: #59a99f; /* <----!!! */
+
+html { 
+	
+}
+
+body {
+	margin: 0px;
+
+	background-color: white;
+
+	color: $grey_black;
+	font-family: "Avenir";
+}
+
+/* =========== CONSTANTS ============ */
+
+.title {
+	letter-spacing: 5px;
+	color: #909090;
+	font-size: $header_size;
+	margin: 25px 0px;
+}
+
+#basic_inputs, #summary, #constraints_container {
+	padding: 0px 10vw;
+}
+
+/* ======================== */
+
+#navbar {
+	background-color: $page_teal;
+	padding: 10px 10vw;
+
+	display: flex;
+	align-items: center;
+}
+
+	#navbar #logo {
+		height: 30px;
+		margin-bottom: 0px;
+	}
+
+#content_container {
+	
+
+}
+
+#basic_inputs, #basic_info {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+	padding: 30px;
+
+	background-color: #efefef;
+}
+
+	#basic_inputs input[type="text"], #basic_info #cost {
+		margin-right: 100px;
+	}
+
+#summary {
+
+}
+
+#basic_info {
+	background-color: white;
+	margin-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+	#basic_info .basic_value {
+		font-size: 30pt;
+	    font-weight: bolder;
+        color: $page_teal;
+	}
+
+	#basic_info .basic_label {
+		font-size: 10pt;
+	}
+
+#graphs_container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	padding: 50px 0px;
+	border-top: solid $grey_black 1px;
+	border-bottom: solid $grey_black 1px;
+}
+
+	#graphs_container div {
+		background-color: $page_teal;
+		width: 400px;
+		height: 300px;
+
+		margin: 40px;
+	}
+
+#constraints_container {
+
+}
