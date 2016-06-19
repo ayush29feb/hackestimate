@@ -13,7 +13,7 @@ body {
 
 #navbar {
 	background-color: #59a99f;
-	padding: 10px;
+	padding: 10px 10vw;
 
 	display: flex;
 	align-items: center;
@@ -21,11 +21,11 @@ body {
 
 	#navbar #logo {
 		height: 30px;
-		margin-bottom: -5px;
+		margin-bottom: 0px;
 	}
 
 #content_container {
-	
+	padding: 0px 10vw;
 
 }
 
@@ -34,4 +34,13 @@ body {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+
+	padding: 30px;
+
+	background-color: #efefef;
 }
+
+	#basic_inputs input {
+		margin-right: 100px;
+	}
+
