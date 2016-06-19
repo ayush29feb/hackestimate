@@ -5,6 +5,8 @@
 $header_size: 20pt;
 $grey_black: #272727;
 
+$page_teal: #59a99f; /* <----!!! */
+
 html {
 
 }
@@ -27,10 +29,14 @@ body {
 	margin: 25px 0px;
 }
 
+#basic_inputs, #summary, #constraints_container {
+	padding: 0px 10vw;
+}
+
 /* ======================== */
 
 #navbar {
-	background-color: #59a99f;
+	background-color: $page_teal;
 	padding: 10px 10vw;
 
 	display: flex;
@@ -44,11 +50,6 @@ body {
 
 #content_container {
 
-
-}
-
-#basic_inputs, #summary {
-	padding: 5px 10vw;
 
 }
 
@@ -90,6 +91,8 @@ body {
 
 	#basic_info .basic_value {
 		font-size: 30pt;
+	    font-weight: bolder;
+        color: $page_teal;
 	}
 
 	#basic_info .basic_label {
@@ -107,9 +110,13 @@ body {
 }
 
 	#graphs_container div {
-		background-color: #59a99f;
+		background-color: $page_teal;
 		width: 400px;
 		height: 300px;
 
 		margin: 40px;
 	}
+
+#constraints_container {
+
+}
