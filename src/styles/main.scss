@@ -11,6 +11,8 @@ body {
 	font-family: "Avenir";
 }
 
+$header-size: 20pt;
+
 #navbar {
 	background-color: #59a99f;
 	padding: 10px 10vw;
@@ -47,4 +49,24 @@ body {
 	#basic_inputs input[type="text"] {
 		margin-right: 100px;
 	}
+
+#summary {
+
+}
+
+	#summary h3 {
+		font-size: $header-size;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 
