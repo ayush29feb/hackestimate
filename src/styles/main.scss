@@ -58,6 +58,18 @@ $header-size: 20pt;
 		font-size: $header-size;
 	}
 
+#basic_info {
+	background-color: white;
+}
+
+	#basic_info .basic_value {
+		font-size: 30pt;
+	}
+
+	#basic_info .basic_label {
+		font-size: 10pt;
+	}
+
 
 
 
