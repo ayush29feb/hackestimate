@@ -1,4 +1,4 @@
 import './styles/main.scss';
-const component = require('./hello');
+import { draw as vega } from './vis/index';
 
-document.body.appendChild(component());
+vega('#hist', [{ rank: 1, airport: 'SEA' }]);
