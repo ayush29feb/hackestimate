@@ -1,7 +1,4 @@
-'use strict';
-
 import './styles/main.scss';
-
-var component = require('./hello');
+const component = require('./hello');
 
 document.body.appendChild(component());
