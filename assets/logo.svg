@@ -1,62 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="827px" height="109px" viewBox="0 0 827 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="748px" height="110px" viewBox="0 0 748 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="17" y="0" width="20" height="99"></rect>
+        <text id="text-1" font-family="Avenir-Heavy, Avenir" font-size="90" font-weight="600">
+            <tspan x="0" y="90">ACKESTIMATE</tspan>
+        </text>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-3" x="79" y="1" width="20" height="99"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <polyline id="path-5" points="0.5 64.5 46.3983902 16.6060276 71 84.0000019 111 37"></polyline>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
-            <feMorphology radius="5.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feMorphology radius="5.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <text id="text-7" font-family="Avenir-Heavy, Avenir" font-size="90" font-weight="600" letter-spacing="6.92307138" fill="#FFFFFF">
-            <tspan x="130" y="100">ACKESTIMATE</tspan>
-        </text>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.404381793 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421308877 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-80.000000, -252.000000)">
-            <g id="logo" transform="translate(91.000000, 254.000000)">
-                <g>
-                    <g id="Rectangle-3">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Desktop-HD-Copy" transform="translate(-557.000000, -760.000000)">
+            <g id="logo" transform="translate(557.000000, 760.000000)">
+                <g id="Group">
+                    <g id="Page-1">
+                        <g id="Artboard-1">
+                            <g id="Group">
+                                <g id="ACKESTIMATE" transform="translate(130.000000, 12.000000)" fill="#FFFFFF">
+                                    <g>
+                                        <use fill-opacity="1" filter="url(#filter-2)" xlink:href="#text-1"></use>
+                                        <use fill-rule="evenodd" xlink:href="#text-1"></use>
+                                        <use fill-opacity="1" xlink:href="#text-1"></use>
+                                    </g>
+                                </g>
+                                <image id="Logo-2" x="0" y="0" width="130" height="108" xlink:href="data:image/png;base64,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"></image>
+                            </g>
+                        </g>
                     </g>
-                    <g id="Rectangle-3">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
-                    </g>
-                    <g id="Line">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                        <use stroke="#00D1EB" stroke-width="11" stroke-linecap="square" xlink:href="#path-5"></use>
-                    </g>
-                    <polygon id="Triangle-1" fill="#00D0EA" transform="translate(118.702465, 27.505645) rotate(38.000000) translate(-118.702465, -27.505645) " points="118.702465 19.0056446 128.202465 36.0056446 109.202465 36.0056446"></polygon>
-                    <rect id="Rectangle-3" fill="#FFFFFF" x="36" y="40" width="44" height="20"></rect>
-                </g>
-                <g id="ACKESTIMATE" fill-opacity="1" fill="#FFFFFF">
-                    <use filter="url(#filter-8)" xlink:href="#text-7"></use>
-                    <use xlink:href="#text-7"></use>
                 </g>
             </g>
         </g>

@@ -1,4 +1,5 @@
 import './styles/main.scss';
+
 import _ from 'lodash';
 import { draw1, draw2, draw3 } from './vis/index';
 import { addPrices, calcCost } from './data';
@@ -21,4 +22,3 @@ draw2('#hist3', hackers);
 draw3('#hist4', hackers);
 document.getElementById('total_cost').innerHTML = calcCost(hackers);
 document.getElementById('total_hackers').innerHTML = hackers.length;
-
