@@ -29,6 +29,9 @@ module.exports = {
       test: /\.js$/,
       loaders: ['babel'],
       include: [PATHS.src],
+    }, {
+      test: /\.csv$/,
+      loader: 'dsv-loader',
     }],
   },
   plugins: [
