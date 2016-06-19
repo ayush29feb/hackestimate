@@ -108,11 +108,17 @@ body {
 }
 
 	#graphs_container div {
-		background-color: $page_teal;
 		width: 400px;
 		height: 300px;
-
 		margin: 40px;
+	}
+
+	.vega {
+		margin: 0;
+	}
+
+	.vega-actions {
+		display: none;
 	}
 
 #constraints_container {

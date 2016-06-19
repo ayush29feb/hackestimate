@@ -11,3 +11,11 @@ export function addPrices(data) {
   });
   return res;
 }
+
+export function calcCost(data) {
+  let ret = 0;
+  _.forEach(data, (o) => {
+    ret += o.price;
+  });
+  return ret;
+}
