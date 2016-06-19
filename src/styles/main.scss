@@ -1,3 +1,10 @@
+
+
+/* Constants */
+
+$header_size: 20pt;
+$grey_black: #272727;
+
 html { 
 	
 }
@@ -7,11 +14,9 @@ body {
 
 	background-color: white;
 
-	color: #272727;
+	color: $grey_black;
 	font-family: "Avenir";
 }
-
-$header-size: 20pt;
 
 #navbar {
 	background-color: #59a99f;
@@ -55,7 +60,7 @@ $header-size: 20pt;
 }
 
 	#summary h3 {
-		font-size: $header-size;
+		font-size: $header_size;
 	}
 
 #basic_info {
@@ -70,7 +75,10 @@ $header-size: 20pt;
 		font-size: 10pt;
 	}
 
-
+#graphs_container {
+	padding: 50px 0px;
+	border-top: solid $grey_black 1px;
+}
 
 
 
