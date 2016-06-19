@@ -76,6 +76,8 @@ body {
 #basic_info {
 	background-color: white;
 	margin-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 	#basic_info .basic_value {
@@ -87,11 +89,20 @@ body {
 	}
 
 #graphs_container {
+	display: flex;
+	flex-flow: row wrap;
+
 	padding: 50px 0px;
 	border-top: solid $grey_black 1px;
 }
 
+	#graphs_container div {
+		background-color: red;
+		width: 300px;
+		height: 250px;
 
+		margin: 40px;
+	}
 
 
 
