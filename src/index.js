@@ -20,5 +20,5 @@ draw1('#hist1', hackers);
 draw1('#hist2', _.filter(processedData, (o) => (o.airport !== 'SEA')));
 draw2('#hist3', hackers);
 draw3('#hist4', hackers);
-document.getElementById('total_cost').innerHTML = calcCost(hackers);
+document.getElementById('total_cost').innerHTML = "$" + calcCost(hackers);
 document.getElementById('total_hackers').innerHTML = hackers.length;
