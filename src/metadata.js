@@ -33,6 +33,7 @@ export const AIRPORTS = {
   PDX: 'PDX',
   SAN: 'SAN',
   SFO: 'SFO',
+  SEA: 'SEA',
 };
 
 export const STATES = {

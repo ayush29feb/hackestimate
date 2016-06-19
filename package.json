@@ -27,7 +27,12 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
+    "d3": "^3.5.17",
+    "vega": "^2.5.2",
+    "vega-embed": "^2.1.0",
+    "vega-lite": "^1.0.12",
     "dsv-loader": "^1.0.3",
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "jquery": "^3.0.0"
   }
 }

@@ -1,5 +1,3 @@
-
-
 /* Constants */
 
 $header_size: 20pt;
@@ -7,8 +5,8 @@ $grey_black: #272727;
 
 $page_teal: #59a99f; /* <----!!! */
 
-html { 
-	
+html {
+
 }
 
 body {
@@ -49,7 +47,7 @@ body {
 	}
 
 #content_container {
-	
+
 
 }
 
@@ -58,19 +56,29 @@ body {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-
 	padding: 30px;
 
 	background-color: #efefef;
 }
 
-	#basic_inputs input[type="text"], #basic_info #cost {
+	#basic_inputs input[type="text"] {
 		margin-right: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
 	}
-
-#summary {
-
-}
+  ::-webkit-input-placeholder {
+    color:    #e3e1e1;
+  }
+  #upload {
+    border: solid $grey_black 1px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    font-size: 20px;
+  }
 
 #basic_info {
 	background-color: white;
@@ -100,20 +108,19 @@ body {
 }
 
 	#graphs_container div {
-		background-color: $page_teal;
 		width: 400px;
 		height: 300px;
-
 		margin: 40px;
+	}
+
+	.vega {
+		margin: 0;
+	}
+
+	.vega-actions {
+		display: none;
 	}
 
 #constraints_container {
 
 }
-
-
-
-
-
-
-
