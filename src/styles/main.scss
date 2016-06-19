@@ -35,7 +35,7 @@ $header-size: 20pt;
 	padding: 0px 10vw;
 }
 
-#basic_inputs {
+#basic_inputs, #basic_info {
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -46,7 +46,7 @@ $header-size: 20pt;
 	background-color: #efefef;
 }
 
-	#basic_inputs input[type="text"] {
+	#basic_inputs input[type="text"], #basic_info #cost {
 		margin-right: 100px;
 	}
 
