@@ -1,6 +1,6 @@
 import './styles/main.scss';
 import _ from 'lodash';
-import { draw as vega } from './vis/index';
+import { draw1, draw2 } from './vis/index';
 import { addPrices, calcCost } from './data';
 import { finalhackers as logic } from './logic';
 
@@ -13,8 +13,9 @@ const hackers = logic(processedData, BUDGET, TOTAL);
 console.log('processed', processedData);
 console.log('final', hackers);
 
-vega('#hist1', hackers);
-vega('#hist2', _.filter(processedData, (o) => (o.airport !== 'SEA')));
+draw1('#hist1', hackers);
+draw1('#hist2', _.filter(processedData, (o) => (o.airport !== 'SEA')));
+draw2('#hist3', hackers);
 document.getElementById('total_cost').innerHTML = calcCost(hackers);
 document.getElementById('total_hackers').innerHTML = hackers.length;
 
