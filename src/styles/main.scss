@@ -18,6 +18,15 @@ body {
 	font-family: "Avenir";
 }
 
+/* =========== CONSTANTS ============ */
+
+.title {
+	letter-spacing: 5px;
+	color: #909090;
+}
+
+/* ======================== */
+
 #navbar {
 	background-color: #59a99f;
 	padding: 10px 10vw;
@@ -61,10 +70,12 @@ body {
 
 	#summary h3 {
 		font-size: $header_size;
+		margin: 25px 0px;
 	}
 
 #basic_info {
 	background-color: white;
+	margin-bottom: 50px;
 }
 
 	#basic_info .basic_value {
