@@ -23,6 +23,8 @@ body {
 .title {
 	letter-spacing: 5px;
 	color: #909090;
+	font-size: $header_size;
+	margin: 25px 0px;
 }
 
 /* ======================== */
@@ -68,11 +70,6 @@ body {
 
 }
 
-	#summary h3 {
-		font-size: $header_size;
-		margin: 25px 0px;
-	}
-
 #basic_info {
 	background-color: white;
 	margin-bottom: 50px;
@@ -95,6 +92,7 @@ body {
 
 	padding: 50px 0px;
 	border-top: solid $grey_black 1px;
+	border-bottom: solid $grey_black 1px;
 }
 
 	#graphs_container div {
